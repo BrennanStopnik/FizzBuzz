@@ -7,8 +7,8 @@ No return needed because it's console.log'd at every level
 */
 
 
-function fb(){
-    for (let i = 1; i <= 100; i++){
+function fb(num){
+    for (let i = 1; i <= num; i++){
         if (i % 3 === 0 && i % 5 === 0){
             console.log("fizzbuzz");
         } else if (i % 3 === 0){
@@ -21,4 +21,5 @@ function fb(){
     }
 }
 
-fb();
+let num = 100;
+fb(num);
