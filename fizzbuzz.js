@@ -7,7 +7,22 @@ No return needed because it's console.log'd at every level
 */
 
 
-function fb(num){
+// function fb(num){
+//     for (let i = 1; i <= num; i++){
+//         if (i % 3 === 0 && i % 5 === 0){
+//             console.log("fizzbuzz");
+//         } else if (i % 3 === 0){
+//             console.log("fizz");
+//         } else if (i % 5 === 0){
+//             console.log("buzz");
+//         } else {
+//             console.log(i)
+//         }
+//     }
+// }
+
+let fb = (num) =>
+{
     for (let i = 1; i <= num; i++){
         if (i % 3 === 0 && i % 5 === 0){
             console.log("fizzbuzz");
